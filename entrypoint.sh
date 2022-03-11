@@ -50,6 +50,9 @@ npx hexo clean
 echo ">>> Generate file ..."
 npx hexo generate
 
+echo ">>> 站点收录 ..."
+npx hexo deploy
+
 cd $TARGET_PUBLISH_DIR
 
 echo ">>> Config git ..."
